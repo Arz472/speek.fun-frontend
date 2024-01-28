@@ -20,6 +20,7 @@ function UrlLanguageForm() {
                         type="url"
                         id="videoUrl"
                         name="videoUrl"
+                        placeholder="Video URL"
                         value={url}
                         onChange={(e) => setUrl(e.target.value)}
                         required
